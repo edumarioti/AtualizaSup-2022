@@ -1,9 +1,9 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
-## Form generated from reading UI file 'pagesDXBdLH.ui'
+## Form generated from reading UI file 'pages.ui'
 ##
-## Created by: Qt User Interface Compiler version 6.2.2
+## Created by: Qt User Interface Compiler version 6.2.3
 ##
 ## WARNING! All changes made in this file will be lost when recompiling UI file!
 ################################################################################
@@ -395,7 +395,7 @@ class Ui_app_pages(object):
         self.label_logo.setObjectName(u"label_logo")
         self.label_logo.setMinimumSize(QSize(333, 290))
         self.label_logo.setMaximumSize(QSize(333, 290))
-        self.label_logo.setPixmap(QPixmap(u"gui/images/logo/logo-and-text-white-3700px-3200px.png"))
+        self.label_logo.setPixmap(QPixmap(u"../images/logo/logo-and-text-white-3700px-3200px.png"))
         self.label_logo.setScaledContents(True)
 
         self.verticalLayout_3.addWidget(self.label_logo, 0, Qt.AlignHCenter)

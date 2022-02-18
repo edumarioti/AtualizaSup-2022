@@ -1,2 +1,2 @@
 # AtualizaSup
- App para atualizar arquivos do supervisório RsView, buscando o backup da rede industrial
+Este software a visa auxiliar as atualizações nos supervisórios RsView da planta industrial, após configurado ele fecha o supervisório aberto, busca o backup da rede, atualiza o projeto na máquina e incia o supervisório novamente.
