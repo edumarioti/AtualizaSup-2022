@@ -1,15 +1,24 @@
 # -*- coding: utf-8 -*-
 
 ################################################################################
-## Form generated from reading UI file 'pagesDXBdLH.ui'
+## Form generated from reading UI file 'pagesANZSgC.ui'
 ##
 ## Created by: Qt User Interface Compiler version 6.2.2
 ##
 ## WARNING! All changes made in this file will be lost when recompiling UI file!
 ################################################################################
 
-# Import Qt
-from qt_core import *
+from PySide6.QtCore import (QCoreApplication, QDate, QDateTime, QLocale,
+    QMetaObject, QObject, QPoint, QRect,
+    QSize, QTime, QUrl, Qt)
+from PySide6.QtGui import (QBrush, QColor, QConicalGradient, QCursor,
+    QFont, QFontDatabase, QGradient, QIcon,
+    QImage, QKeySequence, QLinearGradient, QPainter,
+    QPalette, QPixmap, QRadialGradient, QTransform)
+from PySide6.QtWidgets import (QApplication, QCheckBox, QFormLayout, QFrame,
+    QGridLayout, QGroupBox, QHBoxLayout, QLabel,
+    QLineEdit, QPushButton, QSizePolicy, QSpacerItem,
+    QStackedWidget, QVBoxLayout, QWidget)
 
 class Ui_app_pages(object):
     def setupUi(self, app_pages):
@@ -386,7 +395,7 @@ class Ui_app_pages(object):
         self.label_logo.setObjectName(u"label_logo")
         self.label_logo.setMinimumSize(QSize(333, 290))
         self.label_logo.setMaximumSize(QSize(333, 290))
-        self.label_logo.setPixmap(QPixmap(u"gui/images/logo/logo-and-text-white-3700px-3200px.png"))
+        self.label_logo.setPixmap(QPixmap(u"/images/logo/logo-and-text-white-3700px-3200px.png"))
         self.label_logo.setScaledContents(True)
 
         self.verticalLayout_3.addWidget(self.label_logo, 0, Qt.AlignHCenter)
@@ -409,7 +418,7 @@ class Ui_app_pages(object):
 
         self.retranslateUi(app_pages)
 
-        app_pages.setCurrentIndex(1)
+        app_pages.setCurrentIndex(2)
 
 
         QMetaObject.connectSlotsByName(app_pages)

@@ -1,4 +1,4 @@
 file_settings.txt
-/widgets/__pycache__
-/pages/__pycache__
-/__pycache__
+/.qt_for_python
+/.vscode
+*__pycache__*

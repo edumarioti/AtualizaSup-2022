@@ -116,7 +116,7 @@ class MenuPushButton(QPushButton):
 
         # Format Path
         app_path = os.path.abspath(os.getcwd())
-        folder = "gui/images/icons"
+        folder = "images/icons"
         path = os.path.join(app_path, folder)
         icon_path = os.path.normpath(os.path.join(path, image))
 
