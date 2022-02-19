@@ -18,8 +18,8 @@
 from qt_core import *
 
 # Import pages
-from gui.pages.ui_pages import Ui_app_pages
-from gui.widgets.menu_push_buttons import MenuPushButton
+from pages.ui_pages import Ui_app_pages
+from widgets.menu_push_buttons import MenuPushButton
 
 
 STANDART_SCREEN_SIZE_X = 800

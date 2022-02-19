@@ -15,16 +15,13 @@
 #-------------------------------------------------------------------------------
 
 # Import Modules
-from email import message
 import shutil, sys, os
-from sre_constants import SUCCESS
-from tokenize import Triple
 
 # Import Qt
 from qt_core import *
 
 # Import Windows 
-from gui.windows.main_window.ui_main_window import Ui_MainWindow
+from windows.ui_main_window import Ui_MainWindow
 
 NORMAL = 0
 WARNING = 1
