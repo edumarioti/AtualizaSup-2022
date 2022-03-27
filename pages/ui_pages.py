@@ -395,7 +395,7 @@ class Ui_app_pages(object):
         self.label_logo.setObjectName(u"label_logo")
         self.label_logo.setMinimumSize(QSize(333, 290))
         self.label_logo.setMaximumSize(QSize(333, 290))
-        self.label_logo.setPixmap(QPixmap(u"/images/logo/logo-and-text-white-3700px-3200px.png"))
+        self.label_logo.setPixmap(QPixmap(u"./images/logo/logo-and-text-white-3700px-3200px.png"))
         self.label_logo.setScaledContents(True)
 
         self.verticalLayout_3.addWidget(self.label_logo, 0, Qt.AlignHCenter)

@@ -21,7 +21,7 @@ import shutil, sys, os
 from qt_core import *
 
 # Import Windows 
-from windows.ui_main_window import Ui_MainWindow
+from main_window.ui_main_window import Ui_MainWindow
 
 NORMAL = 0
 WARNING = 1
@@ -172,6 +172,7 @@ class MainWindow(QMainWindow):
 
         source_not_found = not os.path.exists(source)
 
+
         if uninformed_paths:
             self.message_in_bottom_bar("Verifique o preenchimento dos campos", WARNING)
 
@@ -191,10 +192,10 @@ class MainWindow(QMainWindow):
             if no_option_selected: 
                 self.message_in_bottom_bar("Selecione pelo menos uma opção!", WARNING)
                 self.show_button_update()
-            else:
-                if update_all_is_checked:
+
+            elif update_all_is_checked:
                     self.copy_subfolders_and_files(source, destination)
-        
+
 
     def copy_subfolders_and_files(self, source_path, destination_path):
         
@@ -204,6 +205,7 @@ class MainWindow(QMainWindow):
         # Lista os caminho, as subpastas e aquivos da origem
         for path, subfolders, files in os.walk(source_path):
             
+            print(f"{path} {subfolders} {files}")
             # Nome da subpastas no destino
             path_of_destination_file = path.replace(source_path, destination_path)
 
